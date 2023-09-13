@@ -1,0 +1,5 @@
+aashwin	100	9.90	computer science
+aastik	98	9.80	mechnical
+abhay	96	9.60	business
+sachdeva	94	9.40	electrical
+aastik	92	9.20	management

@@ -5,7 +5,7 @@
 int main()
 {
     FILE *fptr;
-    fptr=fopen("TEST.txt","w");
+    fptr=fopen("Test.txt","w");
 
     char name[100];
     int age;

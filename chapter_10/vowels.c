@@ -9,15 +9,18 @@ int main()
     char ch;
     ch=fgetc(fptr);
     int count=0;
-    for(;ch!=EOF;){
+    for(int i=0;i<500;i++){
         if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-            count+=1;
-            ch=fgetc(fptr);
+            count++;
         }
+        ch=fgetc(fptr);
     }
     
-    printf("%d",count);
 
     fclose(fptr);
+    fptr=fopen("vowels.txt","w");
+    fprintf(fptr,"%d",count);
+    fclose(fptr);
+
     return 0;
 }
